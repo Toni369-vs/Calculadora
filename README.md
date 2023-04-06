@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+Calculadora con React
+Este repositorio contiene una calculadora desarrollada con React, la cual puede realizar operaciones aritméticas básicas como sumar, restar, multiplicar y dividir. Además, incluye una limitación que evita que se ingresen dos operadores consecutivos, lo que podría causar un error en la operación.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Cómo utilizar
+Para utilizar la calculadora, sigue estos pasos:
 
-## Available Scripts
+Clona el repositorio en tu máquina local utilizando git clone o descargando el archivo .zip.
+Abre la carpeta del proyecto en tu editor de código preferido.
+Instala las dependencias del proyecto con el comando npm install.
+Ejecuta el comando npm start para iniciar la aplicación en modo de desarrollo.
+Abre http://localhost:3000 en tu navegador para ver la calculadora.
+Funcionalidades
+La calculadora tiene las siguientes funcionalidades:
 
-In the project directory, you can run:
+Puede realizar operaciones aritméticas básicas como sumar, restar, multiplicar y dividir.
+No permite ingresar dos operadores consecutivos, ya que esto causaría un error en la operación.
+Muestra el resultado de la operación en tiempo real.
+Tiene un botón para limpiar la pantalla y empezar una nueva operación.
+Desarrollo
+La calculadora fue desarrollada utilizando React, un framework de JavaScript utilizado para la creación de interfaces de usuario. Se utilizó una combinación de componentes funcionales y de clase para crear la interfaz y la lógica de la calculadora. Además, se utilizó CSS para darle estilo a la aplicación.
 
-### `npm start`
+La limitación de no permitir dos operadores consecutivos se logró utilizando una validación en la lógica de la calculadora. Cada vez que se presiona un botón de operador, se verifica si el último elemento ingresado fue también un operador. En caso de ser así, se desactiva la funcionalidad del botón para evitar que se ingresen dos operadores consecutivos.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Calculadora](https://user-images.githubusercontent.com/125910370/230463382-09ed0874-fa9d-4f70-bf49-3320072a368e.PNG)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
