@@ -1,5 +1,5 @@
 Calculadora con React
-Este repositorio contiene una calculadora desarrollada con React, la cual puede realizar operaciones aritméticas básicas como sumar, restar, multiplicar y dividir. Además, incluye una limitación que evita que se ingresen dos operadores consecutivos, lo que podría causar un error en la operación.
+Este repositorio contiene una calculadora desarrollada con React, la cual puede realizar operaciones aritméticas básicas como sumar, restar, multiplicar y dividir. Además, incluye una limitación que evita que se ingresen dos operadores consecutivos, lo que podría causar un error en la operación, además, tiene un logo interactivo que va rotando.
 
 Cómo utilizar
 Para utilizar la calculadora, sigue estos pasos:
